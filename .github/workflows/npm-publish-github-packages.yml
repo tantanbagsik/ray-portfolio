@@ -1,0 +1,13 @@
+$ git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   src/data/portfolioData.js
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   src/app/components/HeroSection.jsx
+	modified:   src/data/portfolioData.js
+
