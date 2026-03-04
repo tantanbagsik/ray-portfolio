@@ -1,7 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "/github-icon.svg";
-import LinkedinIcon from "/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { portfolioData } from "../data/portfolioData";
@@ -51,10 +49,10 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href={portfolioData.contact.githubUrl}>
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image src="/github-icon.svg" alt="Github Icon" width={30} height={30} />
           </Link>
           <Link href={portfolioData.contact.linkedinUrl}>
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image src="/linkedin-icon.svg" alt="Linkedin Icon" width={30} height={30} />
           </Link>
         </div>
       </div>
