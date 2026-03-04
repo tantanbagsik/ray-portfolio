@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../data/portfolioData";
 
 const NavLink = ({ href, title }) => {
   return (

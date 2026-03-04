@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../data/portfolioData";
 
 const navLinks = portfolioData.navLinks;
 

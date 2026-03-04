@@ -3,7 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../data/portfolioData";
 
 const projectsData = portfolioData.projects;
 

@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GithubIcon from "/github-icon.svg";
+import LinkedinIcon from "/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../data/portfolioData";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
