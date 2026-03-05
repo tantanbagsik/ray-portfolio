@@ -6,7 +6,7 @@ export const portfolioData = {
     logo: "Ray Panganiban",
   },
   hero: {
-    subtitle: "I love to create Stunning and worldclass websites that are both elegant, intuitive, and accessible.Making Things Work like magic is passion by innovating and creating a world class systems and application software..",
+    subtitle: "I love to create Stunning and worldclass websites that are both elegant, intuitive, and accessible.Making Things Work like magic is passion by innovating and creating a world class systems and Software applications..",
     heroImage: "/images/hero-image.png",
     cvLink: null,
   },
@@ -43,7 +43,7 @@ export const portfolioData = {
       description: "Description of project 1",
       image: "/images/projects/1.png",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/tantanbagsik",
+      gitUrl: "https://youtu.be/sz3LHuAHMv0?si=UkLdQa2hC5Zup-gn",
       previewUrl: "https://example.com",
     },
     {
@@ -52,7 +52,7 @@ export const portfolioData = {
       description: "Description of project 2",
       image: "/images/projects/2.png",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/tantanbagsik",
+      gitUrl: "https://youtu.be/YZhZebDhlQ4?si=2KrWnL79Iqy43TbR",
       previewUrl: "https://example.com",
     },
     {
